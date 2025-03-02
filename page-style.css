@@ -1,0 +1,71 @@
+body {
+    font-family: 'vazir', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.product-page {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1.product-title {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+}
+
+.product-description, .product-features, .product-usage, .product-specifications, .customer-reviews, .contact {
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.product-image img:hover {
+    cursor: zoom-in;
+    transform: scale(1.5);
+    transition: 0.2s;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.product-price h2 {
+    color: #e74c3c;
+    font-size: 24px;
+    text-align: center;
+}
+
+.customer-reviews p {
+    font-style: italic;
+    color: #555;
+}
+
+.contact p {
+    color: #555;
+}
+
+.contact strong {
+    color: #e74c3c;
+}
+

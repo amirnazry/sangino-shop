@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درباره ما</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'vazir',Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #b8b8b8;
+            color: white;
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <header>
+        <div class="logo">فروشگاه من</div>
+
+        <div class="profile">
+            <label for="profile-bt">
+            <p>ورود</p>
+            </label>
+            <input type="checkbox" id="profile-bt" hidden>
+            <div class="profile-box">
+                <img src="profile.png" style="width: 70px;">
+                <p>پروفایل من</p>
+                <p>داشبورد</p>
+                <p>سبد خرید</p>
+                <p>مورد علاقه ها</p>
+                <p></p>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="#products">محصولات</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+            </ul>
+            
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="جستجو..." aria-label="جستجو">
+            <button type="submit">جستجو</button>
+        </div>
+        
+        
+    </header>
+
+    <main>
+        <h1>درباره ما</h1>
+        <div class="about-content">
+            <p>
+                به فروشگاه ما خوش آمدید! هدف ما ارائه بهترین محصولات با بالاترین کیفیت و قیمت‌های رقابتی به مشتریان عزیزمان است.
+                ما به تجربه خرید آنلاین راحت و سریع شما اهمیت می‌دهیم و همیشه در تلاشیم تا خدمات و محصولات خود را بهبود بخشیم.
+            </p>
+            <p>
+                تیم ما متشکل از افراد با تجربه در حوزه‌های مختلف است که با تعهد و انگیزه بالا به ارائه بهترین خدمات مشغول‌اند.
+            </p>
+            <p>
+                از اینکه ما را انتخاب کرده‌اید سپاسگزاریم و امیدواریم تجربه‌ای خوشایند و ارزشمند داشته باشید.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-box">
+            <nav>
+                <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#products">محصولات</a></li>
+                    <li><a href="contact.html">تماس با ما</a></li>
+                    <li><a href="about.html">درباره ما</a></li>
+                </ul>
+            </nav>
+            <p>تمامی حقوق محفوظ است &copy; 2025</p>
+        </div>
+    </footer>
+</body>
+</html>

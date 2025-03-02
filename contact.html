@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'vazir',Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+       
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: #1e90ff;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #4682b4;
+        }
+        .call-button {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 40px;
+            height: 40px;
+            padding: 10px 10px;
+            margin: 15px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #1e90ff;
+            text-decoration: none;
+            border-radius: 45px;
+            transition: background-color 0.3s ease;
+            position: fixed;
+            box-shadow: 0 5px 5px #555;
+}
+
+        .call-button:hover {
+            background-color: #4682b4;
+}
+       
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.social-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.rubika {
+    background-color: #00a5cf;
+}
+
+.eitaa {
+    background-color: #ff9100;
+}
+
+.social-button:hover {
+    opacity: 0.8;
+}
+    </style>
+</head>
+<body dir="rtl">
+    <header>
+        <div class="logo">سنگینو شاپ</div>
+
+        <div class="profile">
+            <label for="profile-bt">
+            <p>ورود</p>
+            </label>
+            <input type="checkbox" id="profile-bt" hidden>
+            <div class="profile-box">
+                <img src="profile.png" style="width: 70px;">
+                <p>پروفایل من</p>
+                <p>داشبورد</p>
+                <p>سبد خرید</p>
+                <p>مورد علاقه ها</p>
+                <p></p>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">خانه</a></li>
+                <li><a href="#products">محصولات</a></li>
+                <li><a href="contact.html">تماس با ما</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+            </ul>
+            
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="جستجو..." aria-label="جستجو">
+            <button type="submit">جستجو</button>
+        </div>
+        
+        
+    </header>
+
+    
+    <a href="tel:09375377179" class="call-button"><h5>تماس</h5></a>
+    <main>
+        <h1>تماس با ما</h1>
+        <div class="contact-form">
+
+            <section id="social-links">
+                <h2>شبکه‌های اجتماعی</h2>
+                <div class="social-buttons">
+                    <a href="https://t.me/username" target="_blank" class="social-button telegram">تلگرام</a>
+                    <a href="https://instagram.com/username" target="_blank" class="social-button instagram">اینستاگرام</a>
+                    <a href="https://web.rubika.ir/#c=c0CKmqB0f4459a4fc9866a123682af1b" target="_blank" class="social-button rubika">روبیکا</a>
+                    <a href="https://eitaa.com/username" target="_blank" class="social-button eitaa">ایتا</a>
+                </div>
+            </section>
+
+            <!-- <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">نام:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">ایمیل:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">پیام:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">ارسال</button>
+            </form> -->
+        </div>
+    </main>
+    
+
+    <footer>
+        <div class="footer-box">
+            <nav>
+                <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="#products">محصولات</a></li>
+                    <li><a href="contact.html">تماس با ما</a></li>
+                    <li><a href="about.html">درباره ما</a></li>
+                </ul>
+            </nav>
+            <p>تمامی حقوق محفوظ است &copy; 2025</p>
+        </div>
+    </footer>
+      
+</body>
+</html>

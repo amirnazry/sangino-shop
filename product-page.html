@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه محصول - جای لوازم آرایشی</title>
+    <link rel="stylesheet" href="product-page.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <input type="checkbox" id="menu-toggle" hidden>
+            <label for="menu-toggle" class="hamburger-menu">
+                ☰
+            </label>
+        
+            <nav>
+                <ul>
+                    <li><a href="#">خانه</a></li>
+                    <li><a href="index.html">محصولات</a></li>
+                    <li><a href="contact.html">تماس با ما</a></li>
+                    <li><a href="about.html">درباره ما</a></li>
+                </ul>
+            </nav>
+        
+            <div class="search-box">
+                <input type="text" placeholder="جستجو..." aria-label="جستجو">
+                <button type="submit">جستجو</button>
+            </div>
+       
+        
+                <div class="profile">
+                    <label for="profile-bt">
+                    <p>ورود</p>
+                    </label>
+                    <input type="checkbox" id="profile-bt" hidden>
+                    <div class="profile-box">
+                        <img src="images/profile.png" style="width: 70px;">
+                        <p>پروفایل من</p>
+                        <p>داشبورد</p>
+                        <p>سبد خرید</p>
+                        <p>مورد علاقه ها</p>
+                        <p></p>
+                    </div>
+                </div>
+        </header>
+
+        <main class="product">
+            <div class="product-image">
+                <img src="product.jpg" alt="جای لوازم آرایشی">
+            </div>
+            <div class="product-details">
+                <h2>جای لوازم آرایشی مدل A100</h2>
+                <p class="description">ساخته‌شده از سنگ مصنوعی مقاوم در برابر آب و خط و خش.</p>
+                <p><strong>ابعاد:</strong> ۲۰×۱۵×۱۰ سانتی‌متر</p>
+                <p><strong>رنگ:</strong> سفید، مشکی، مرمری</p>
+                <p class="price">قیمت: <span>۱۵۰,۰۰۰ تومان</span></p>
+                <button class="buy-btn">افزودن به سبد خرید</button>
+            </div>
+        </main>
+
+        <section class="related-products">
+            <h3>محصولات مرتبط</h3>
+            <div class="products">
+                <div class="product-item">
+                    <img src="images/2.jpg" alt="محصول مرتبط">
+                    <p>ست هفت سین</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/3.jpg" alt="محصول مرتبط">
+                    <p>هفت‌سین سنگی مدل </p>
+                </div>
+            </div>
+        </section>
+
+        <script src="scrpit.js"></script>
+
+        <footer>
+            <p>تمامی حقوق محفوظ است &copy; 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
